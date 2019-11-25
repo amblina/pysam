@@ -55,7 +55,6 @@
 ###############################################################################
 import re
 import array
-import json
 import string
 import ctypes
 import struct
