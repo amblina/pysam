@@ -108,14 +108,14 @@ cdef inline uint32_t c_mul(uint32_t a, uint32_t b):
 
 
 cdef inline uint8_t tolower(uint8_t ch):
-    if ch >= 65 and ch <= 90:
+    if 65 <= ch <= 90:
         return ch + 32
     else:
         return ch
 
 
 cdef inline uint8_t toupper(uint8_t ch):
-    if ch >= 97 and ch <= 122:
+    if 97 <= ch <= 122:
         return ch - 32
     else:
         return ch
