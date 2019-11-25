@@ -61,7 +61,6 @@ import ctypes
 import struct
 
 cimport cython
-from cpython cimport array as c_array
 from cpython.version cimport PY_MAJOR_VERSION
 from cpython cimport PyBytes_FromStringAndSize
 from libc.string cimport strchr
